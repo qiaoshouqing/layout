@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="top.glimpse.layout.MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="LinearLayout"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:background="#e463a0"
+        android:textColor="#ffffff"/>
+
+    <Button
+        android:id="@+id/RelativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="RelativeLayout"
+        android:background="#c69523"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/RelativeLayout"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="FrameLayout"
+        android:background="#865fda"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/RelativeLayout"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="GridLayout"
+        android:background="#81d7e1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:text="AbsoluteLayout"
+        android:background="#87de7f"/>
+
+</RelativeLayout>
